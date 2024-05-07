@@ -5,8 +5,9 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: vproapp-port
+      targetPort: 8080 # Replace 8080 with the actual port number of your container
       protocol: TCP
   selector:
     app: vproapp
   type: LoadBalancer
+
