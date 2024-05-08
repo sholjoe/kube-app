@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: 8080 # Replace with the actual port number of your container
+      targetPort: 8080 # Replace with the actual port number of your container or use vproapp-port
       protocol: TCP
   selector:
     app: vproapp

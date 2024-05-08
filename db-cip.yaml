@@ -5,7 +5,7 @@ metadata:
 spec:
   ports:
     - port: 3306
-      targetPort: 3306 # Replace with the actual port number of your container
+      targetPort: 3306 # Replace with the actual port number of your container or change  it to vproapp-port
       protocol: TCP
   selector:
     app: vprodb
