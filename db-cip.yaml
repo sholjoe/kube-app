@@ -5,8 +5,9 @@ metadata:
 spec:
   ports:
     - port: 3306
-      targetPort: vprodb-port
+      targetPort: 3306 # Replace with the actual port number of your container
       protocol: TCP
   selector:
     app: vprodb
   type: ClusterIP
+
